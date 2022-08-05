@@ -1,5 +1,8 @@
-faim = False
-if faim:
-    print('donne moi à manger')
+from operator import truediv
+
+
+musique= False
+if musique:
+    print('j excute quelques pas de danse')
 else: 
-    print('laisse moi partir')
+    print('suie mon rthume')

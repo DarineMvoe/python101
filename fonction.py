@@ -1,8 +1,9 @@
-prenom = 'johanna'
-nom = 'david'
 
-def nom_complet(pre, nm):
-    return f'{pre} {nm}'
+lieu = 'maison' 
+jour = 'mardi'
+mois = 'fevrier'
+def nom_agenda(li, jr, ms):
+    return f'{li} {jr} {ms}'
 
-complet = nom_complet(nm=nom, pre=prenom)
-print(complet.upper())
+agenda = nom_agenda(li=lieu, jr=jour, ms=mois)
+print(agenda.upper())
