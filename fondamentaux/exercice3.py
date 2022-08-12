@@ -6,3 +6,4 @@ def affiche_lettres(mot):
         print(lettre)
 
 affiche_lettres('Darine')
+
